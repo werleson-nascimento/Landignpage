@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Bock Café — O melhor café da sua vida</title>
+    <meta name="description" content="Star Bock Café — Cafés especiais, bebidas artesanais e delícias fresquinhas. Venha nos visitar!">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header" id="header">
+        <div class="container header__inner">
+            <a href="#" class="logo">
+                <span class="logo__icon">☕</span>
+                <span class="logo__text">Star Bock <span>Café</span></span>
+            </a>
+            <nav class="nav" id="nav">
+                <a href="#inicio" class="nav__link">Início</a>
+                <a href="#cardapio" class="nav__link">Cardápio</a>
+                <a href="#contato" class="nav__link">Contato</a>
+            </nav>
+            <button class="hamburger" id="hamburger" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <section class="hero" id="inicio">
+        <div class="hero__bg-shapes">
+            <div class="shape shape--1"></div>
+            <div class="shape shape--2"></div>
+            <div class="shape shape--3"></div>
+        </div>
+        <div class="container hero__content">
+            <h1 class="hero__title fade-in">O melhor café<br>da sua vida</h1>
+            <p class="hero__subtitle fade-in">Sabores artesanais, ingredientes selecionados e aquele aroma irresistível que só a Star Bock tem.</p>
+            <a href="#cardapio" class="btn btn--primary btn--pulse fade-in">Ver Cardápio</a>
+        </div>
+    </section>
+
+    <section class="menu" id="cardapio">
+        <div class="container">
+            <h2 class="section-title fade-in">Nosso Cardápio</h2>
+            <p class="section-subtitle fade-in">Escolha sua bebida ou delícia favorita</p>
+            <div class="menu__grid">
+
+                <div class="card fade-in">
+                    <div class="card__img-wrap">
+                        <img src="assets/products/cappuccino.png" alt="Cappuccino Clássico" loading="lazy">
+                    </div>
+                    <div class="card__body">
+                        <h3 class="card__name">Cappuccino Clássico</h3>
+                        <p class="card__desc">Café espresso com leite vaporizado e espuma cremosa</p>
+                        <div class="card__footer">
+                            <span class="card__price">R$ 13,90</span>
+                            <button class="btn btn--sm">Pedir</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card fade-in">
+                    <div class="card__img-wrap">
+                        <img src="assets/products/latte.png" alt="Café Latte" loading="lazy">
+                    </div>
+                    <div class="card__body">
+                        <h3 class="card__name">Café Latte</h3>
+                        <p class="card__desc">Espresso suave com bastante leite vaporizado</p>
+                        <div class="card__footer">
+                            <span class="card__price">R$ 12,90</span>
+                            <button class="btn btn--sm">Pedir</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card fade-in">
+                    <div class="card__img-wrap">
+                        <img src="assets/products/espresso.png" alt="Espresso Duplo" loading="lazy">
+                    </div>
+                    <div class="card__body">
+                        <h3 class="card__name">Espresso Duplo</h3>
+                        <p class="card__desc">Dose dupla de café forte e encorpado</p>
+                        <div class="card__footer">
+                            <span class="card__price">R$ 8,90</span>
+                            <button class="btn btn--sm">Pedir</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card fade-in">
+                    <div class="card__img-wrap">
+                        <img src="assets/products/mocha.png" alt="Mocha Especial" loading="lazy">
+                    </div>
+                    <div class="card__body">
+                        <h3 class="card__name">Mocha Especial</h3>
+                        <p class="card__desc">Espresso com chocolate e chantilly</p>
+                        <div class="card__footer">
+                            <span class="card__price">R$ 16,90</span>
+                            <button class="btn btn--sm">Pedir</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card fade-in">
+                    <div class="card__img-wrap">
+                        <img src="assets/products/frappe.png" alt="Frappé de Caramelo" loading="lazy">
+                    </div>
+                    <div class="card__body">
+                        <h3 class="card__name">Frappé de Caramelo</h3>
+                        <p class="card__desc">Bebida gelada com café, caramelo e chantilly</p>
+                        <div class="card__footer">
+                            <span class="card__price">R$ 17,90</span>
+                            <button class="btn btn--sm">Pedir</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card fade-in">
+                    <div class="card__img-wrap">
+                        <img src="assets/products/chocolate-quente.png" alt="Chocolate Quente" loading="lazy">
+                    </div>
+                    <div class="card__body">
+                        <h3 class="card__name">Chocolate Quente</h3>
+                        <p class="card__desc">Cacau premium com leite cremoso</p>
+                        <div class="card__footer">
+                            <span class="card__price">R$ 13,90</span>
+                            <button class="btn btn--sm">Pedir</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card fade-in">
+                    <div class="card__img-wrap">
+                        <img src="assets/products/chai-latte.png" alt="Chai Latte" loading="lazy">
+                    </div>
+                    <div class="card__body">
+                        <h3 class="card__name">Chai Latte</h3>
+                        <p class="card__desc">Chá especiado com leite vaporizado</p>
+                        <div class="card__footer">
+                            <span class="card__price">R$ 14,90</span>
+                            <button class="btn btn--sm">Pedir</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card fade-in">
+                    <div class="card__img-wrap">
+                        <img src="assets/products/pao-de-queijo.png" alt="Pão de Queijo" loading="lazy">
+                    </div>
+                    <div class="card__body">
+                        <h3 class="card__name">Pão de Queijo</h3>
+                        <p class="card__desc">Quentinho e crocante por fora, macio por dentro</p>
+                        <div class="card__footer">
+                            <span class="card__price">R$ 6,90</span>
+                            <button class="btn btn--sm">Pedir</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card fade-in">
+                    <div class="card__img-wrap">
+                        <img src="assets/products/croissant.png" alt="Croissant de Manteiga" loading="lazy">
+                    </div>
+                    <div class="card__body">
+                        <h3 class="card__name">Croissant de Manteiga</h3>
+                        <p class="card__desc">Folhado artesanal amanteigado</p>
+                        <div class="card__footer">
+                            <span class="card__price">R$ 9,90</span>
+                            <button class="btn btn--sm">Pedir</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card fade-in">
+                    <div class="card__img-wrap">
+                        <img src="assets/products/bolo-cenoura.png" alt="Bolo de Cenoura" loading="lazy">
+                    </div>
+                    <div class="card__body">
+                        <h3 class="card__name">Bolo de Cenoura</h3>
+                        <p class="card__desc">Fatia com cobertura de chocolate</p>
+                        <div class="card__footer">
+                            <span class="card__price">R$ 11,90</span>
+                            <button class="btn btn--sm">Pedir</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer" id="contato">
+        <div class="container footer__inner">
+            <div class="footer__col">
+                <h4 class="footer__heading">Star Bock Café</h4>
+                <p>O lugar perfeito para uma pausa especial. Cafés artesanais e delícias feitas com carinho.</p>
+            </div>
+            <div class="footer__col">
+                <h4 class="footer__heading">Contato</h4>
+                <p>Rua dos Cafés, 123 — Centro</p>
+                <p>(11) 99999-0000</p>
+                <p>contato@starbock.com.br</p>
+            </div>
+            <div class="footer__col">
+                <h4 class="footer__heading">Horário</h4>
+                <p>Seg a Sex: 7h — 20h</p>
+                <p>Sáb e Dom: 8h — 18h</p>
+            </div>
+            <div class="footer__col">
+                <h4 class="footer__heading">Redes Sociais</h4>
+                <div class="social">
+                    <a href="#" class="social__link" aria-label="Instagram">Instagram</a>
+                    <a href="#" class="social__link" aria-label="Facebook">Facebook</a>
+                    <a href="#" class="social__link" aria-label="WhatsApp">WhatsApp</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <p>&copy; 2026 Star Bock Café. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
